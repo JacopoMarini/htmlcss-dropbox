@@ -165,6 +165,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
+    align-items: flex-start;
 }
 
 .col-4{
@@ -193,7 +194,7 @@ img{
 }
 
 .business__p{
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -208,14 +209,87 @@ img{
 
 .business__list{
     display: block;
-    list-style-position: outside;
-}
-
-#business_list li{
-    padding-left: 0pt;
+    list-style: none;
+    text-align: left;
+    margin-left: -20px;
 }
 
 .prova{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.col-4-footer{
+    display: block;
+    padding-left: 20px;
+    height: 400px;
+}
+
+hr{
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+i{
+    padding-right: 20px;
+}
+
+.check{
+    color: dodgerblue;
+}
+
+.col-w{
+    width: calc(100% - 18px);
+    height: 100%;
+    margin-top: 50px;
+    border: 1px solid grey;
+}
+
+.col-w-header{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.content__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.content__main{
+    padding-top: 40px;
+    padding-left: 20px;
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+/* ----- PARTNER ----- */
+.partner{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.col-partner{
+    max-width: 50%;
+}
+
+.col-partner-descr{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__border{
+    border: 1px solid black;
+    line-height: 50%;
+}
+
+.partner__p{
+    font-size: 8px;
 }
