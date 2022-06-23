@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- CONTAINER ----- */
+
+.container__hero__footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container__main{
+    width: 100px;
+}
+
+/* -----  BUTTON ----- */
+
+.button{
+    line-height: 50px;
+    padding: 20px;
+    border: none;
+}
+
+.button__blue{
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* ----- NAV ----- */
+
+
+/* ----- HERO ----- */
+
+.hero{
+    background-color: lightblue;
+    height: 300px;
+}
+
