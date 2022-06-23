@@ -278,6 +278,7 @@ i{
 .col-partner-descr{
     padding-top: 30px;
     padding-left: 30px;
+    padding-right: 20px;
 }
 
 .row{
@@ -291,5 +292,8 @@ i{
 }
 
 .partner__p{
-    font-size: 8px;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
