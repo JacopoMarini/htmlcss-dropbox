@@ -297,18 +297,18 @@ i{
 }
 
 .col-partner{
-    max-width: 50%;
+    flex-basis: 65%;
 }
 
 .col-partner-descr{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 20px;
+    flex-basis: 30%;
+    padding-top: 50px;
 }
 
 .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .button__border{
