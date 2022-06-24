@@ -124,12 +124,14 @@ img{
 
 .arrow{
     font-size: 25px;
+    padding-top: 100px;
 }
 
 .hero__image{
     display: flex;
     position: relative;
     top: 15%;
+    flex-basis: calc((100% * 2) / 3);
 }
 
 .hero__description{
@@ -138,6 +140,10 @@ img{
 
 .img__abs{
     position: relative;
+}
+
+.wrapper{
+    flex-basis: 60%;
 }
 
 /* ----- BUSINESS ----- */
@@ -297,3 +303,5 @@ i{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/* ----- OPERAZIONI ----- */
