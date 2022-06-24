@@ -324,3 +324,21 @@ i{
 }
 
 /* ----- OPERAZIONI ----- */
+.operazioni{
+    margin-top: 100px;
+}
+
+.operazioni__card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.col__operazioni{
+    flex-basis: 33%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
