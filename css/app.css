@@ -160,9 +160,28 @@ img{
     padding-bottom: 50px;
 }
 
-.round{
+.radio-input{
     display: flex;
-    gap: 50px;
+    gap: 10px;
+    align-items: center;
+}
+
+.radio-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.radio-input .circle{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d1d1d4;
+    border-radius: 50%;
+}
+
+.radio-input.checked .circle{
+    border-color: dodgerblue;
+    border-width: 4px;
 }
 
 /* ----- CARDS ----- */
