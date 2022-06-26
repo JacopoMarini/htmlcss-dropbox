@@ -45,12 +45,15 @@ img{
     height: 30px;
     margin-right: 10px;
     background-color: white;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .button__blue{
     background-color: dodgerblue;
     color: white;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 0px;
 }
 
 .button__cta{
@@ -341,4 +344,131 @@ i{
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
+}
+
+/* ----- NUMERO TEAM ----- */
+
+.team__title{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#team__link__style{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.team__block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3);
+    margin-top: 150px;
+}
+
+.squared__block{
+    border: 1px solid black;
+}
+
+.left__block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    height: 365px;
+    border: 1px solid black;
+}
+
+.center__block{
+    border: 1px solid black;
+    flex-grow: 1;
+    color: black;
+    height: 365px;
+    padding-left: 20px;
+    width: 365px;
+    padding-top: 20px;
+}
+
+.right__block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.center__block-logo{
+    width: 156px;
+}
+
+.team__hr{
+    margin-top: 20px;
+}
+
+.team__author{
+    padding-top: 20px;
+}
+
+/* ----- SEZIONI COLORATE E REGOLE ----- */
+.green{
+    background-color: #A2D39B;
+    flex: 50%;
+    height: calc(365px / 2);
+    align-items: center;
+    padding-top: 20%;
+}
+
+.brown{
+    background-color: #61082B;
+    flex:50%;
+    height: calc(365px / 2);
+    padding-top: 12%;
+}
+
+.cyan{
+    background-color: #0093CE;
+    flex-basis: 50%;
+    height: 50%;
+    height: calc(365px / 2);
+    padding-top: 25%;
+}
+
+.red{
+    background-color: #FF1C1C;
+    flex-basis: 50%;
+    height: calc(365px / 2);
+    padding-top: 20%;
+}
+
+.darkred{
+    background-color: #D5001F;
+    flex-basis: 50%;
+    height: 50%;
+    height: calc(365px / 2);
+    padding-top: 20%;
+}
+
+.sky{
+    background-color: #B4D0E7;
+    flex-basis: 50%;
+    height: calc(365px / 2);
+    padding-top: 25%;
+}
+
+.blue{
+    background-color: #0D2481;
+    flex-basis: 50%;
+    height: calc(365px / 2);
+    padding-top: 20%;
+}
+
+.yellow{
+    background-color: #FFD830;
+    flex-basis: 50%;
+    height: calc(365px / 2);
+    padding-top: 20%;
+}
+
+.skyblue{
+    background-color: #B4D0E7;
 }
