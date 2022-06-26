@@ -45,7 +45,8 @@ img{
     height: 30px;
     margin-right: 10px;
     background-color: white;
-    padding: 0 10px;
+    padding: 0 15px;
+    max-width: 100%;
 }
 
 .button__blue{
@@ -469,6 +470,89 @@ i{
     padding-top: 20%;
 }
 
+/* ----- POST TEAM ----- */
+
 .skyblue{
     background-color: #B4D0E7;
+    height: 207px;
+}
+
+.post__team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+#bordeaux{
+    color: #61072A;
+}
+
+/* ----- FAQ ----- */
+
+.faq{
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    height: 60px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__title{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.bigvee{
+    margin-left: 200px;
+}
+
+/* ----- FOOTER ----- */
+
+footer{
+    margin-top: 100px;
+}
+
+.footer__bg{
+    background-color: black;
+    max-height: 100%;
+}
+
+.flex__footer{
+    color: white;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.footer__lista{
+    display: inline-block;
+    margin-left: -20px;
+    padding-right: 30px;
+}
+
+.footer__title{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+footer li{
+    padding-top: 10px;
+    font-size: 12px;
+    max-width: 100%;
+}
+
+footer hr{
+    margin-top: 50px;
+    width: 150px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.world{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 100px;
+    display: inline-block;
 }
