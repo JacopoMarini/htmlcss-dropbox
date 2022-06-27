@@ -364,6 +364,7 @@ i{
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
     margin-top: 150px;
+    position: relative;
 }
 
 .squared__block{
@@ -372,6 +373,22 @@ i{
     justify-content: center;
     align-items: center;
 }
+
+.squared__block::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.squared__block.green{
+    border: 15px solid rgba(255, 255, 255, 0.5);
+}
+
+
 
 .left__block{
     display: flex;
@@ -390,6 +407,7 @@ i{
     padding-left: 20px;
     width: 365px;
     padding-top: 20px;
+    background-color: #e8e8e8;
 }
 
 .right__block{
