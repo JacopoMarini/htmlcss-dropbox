@@ -467,7 +467,7 @@ i{
     background-color: #FFD830;
     flex-basis: 50%;
     height: calc(365px / 2);
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 /* ----- POST TEAM ----- */
@@ -486,6 +486,7 @@ i{
 
 #bordeaux{
     color: #61072A;
+    margin-right: 100px;
 }
 
 /* ----- FAQ ----- */
